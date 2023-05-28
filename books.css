@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.book{
+    background-color: firebrick;
+}
+
+.trending{
+    height: 10vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.trending p{
+    margin: 20px;
+}
+
+.popular{
+    background-color: skyblue;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular p{
+    margin: 20px;
+}

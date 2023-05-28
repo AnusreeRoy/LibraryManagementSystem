@@ -1,0 +1,60 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.user{
+    
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+    background-color: rgb(156, 159, 251);
+    flex-direction: column;
+}
+.info{
+     padding-left: 50px;
+    margin-top: 80px; 
+    font-size: 27px;
+   color:rgb(23, 23, 45);
+
+}
+
+.info header{
+    padding-bottom: 20px;
+}
+.borrowedbooks{
+    padding-left: 50px;
+    margin-top: 80px; 
+    font-size: 27px;
+   color:rgb(23, 23, 45); 
+   text-decoration: none; 
+}
+
+.borrowedbooks a{
+    text-decoration: none;
+}
+
+.booksbought{
+    padding-left: 50px;
+    margin-top: 80px; 
+    font-size: 27px;
+   color:rgb(23, 23, 45);  
+   text-decoration:none ;  
+}
+
+.booksbought a{
+    text-decoration: none;
+}
+.wishlist{
+    padding-left: 50px;
+    margin-top: 80px; 
+    font-size: 27px;
+   color:rgb(23, 23, 45);  
+   text-decoration:none ;  
+   border-bottom:1px dotted; 
+}
+
+.wishlist a{
+    text-decoration: none;
+}
