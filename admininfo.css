@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.admin{
+   height:100vh;
+    background-color: rgb(105, 172, 201);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    
+}
+.admininfo{
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.library{
+    background-color: rgb(146, 220, 171);
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    column-gap: 20px; 
+}
+.libraryinfo{
+    background-color: rgb(56, 33, 5);
+}
+.user{
+    background-color:rgb(105, 172, 201);}
