@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-  .user{
+}
+
+.user{
     min-height: 100vh;
     max-height: max-content;
     width: 100%; 
@@ -12,11 +13,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-  } 
+} 
 
 .info{
-
-    font-size: 27px;
+   font-size: 27px;
    color:rgb(23, 23, 45);
    /* height: 70vh;
    width: 35vh; */
@@ -51,9 +51,25 @@
     grid-template-rows: 1fr ;
     row-gap: 20px;
 }
+
+.recommended{
+    padding-top: 40px;
+}
+
+.recommended h1{
+    padding-bottom: 20px;
+}
+
+.classic h1{
+    padding-bottom: 20px;
+}
+
 .classic a{
     text-decoration:none ;
 }
+
+
+
 
 /* 
 .borrowedbooks{
