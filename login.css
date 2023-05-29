@@ -1,9 +1,9 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .page{
     min-height: 100vh;
     max-height: max-content;
@@ -21,23 +21,19 @@
     height: 40vh;
     width: 40vh;
     /* background-color: blueviolet; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .form-field{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-direction: column;
     background-color: aliceblue;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 5px 5px black;
-}
-.form-field form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .form-field h1 {
