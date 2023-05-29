@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .page{
     min-height: 100vh;
@@ -12,6 +13,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .box{
     display: flex;
     justify-content: center;
@@ -20,7 +22,6 @@
     width: 40vh;
     /* background-color: blueviolet; */
     background-color: aliceblue;
-    border-radius: 20px;
 }
 
 .form-field{
@@ -29,6 +30,8 @@
     align-items: center;
     background-color: aliceblue;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
 }
 .form-field form{
     display: flex;
@@ -56,13 +59,6 @@
     padding: 10px;
 }
 
-.form-field button{
-    padding: 20px;
-    border-radius: 20px;
-    background-color: rgb(242, 215, 250);
-    border: 1px solid black;
-}
-
 .submit-button{
     display: flex;
     align-items: center;
@@ -71,6 +67,13 @@
     margin-left: 50px;
 }
 
-.form-field button:hover{
+.submit-button button{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(242, 215, 250);
+    border: 1px solid black;
+}
+
+.submit-button button:hover{
     background-color: rgb(246, 67, 222);
 }
